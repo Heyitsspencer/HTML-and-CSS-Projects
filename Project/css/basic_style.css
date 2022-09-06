@@ -8,13 +8,13 @@ h1 {
     text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 }
 
-.container (
-    wdith: 450px;
+.container {
+    width: 450px;
     height: 450px;
     background-color: #faebd7;
     border: 2px solid black;
     border-radius: 5%;
-)
+}
 
 /*------------------------------------------------------
 SELECT ALL SQUARES IN THE ARRAY
@@ -27,7 +27,7 @@ SELECT ALL SQUARES IN THE ARRAY
     height: 100px;
     margin: 5px;
     border: 1px solid black;
-    border-radius: 256;
+    border-radius: 25%;
     cursor:pointer;
     transition: transform .5s ease-in-out;
 }
@@ -71,20 +71,20 @@ HOVER, TRANSLATE, AND TRANSFORM EFFECTS
 .squares:nth-child(1) :hover {
     background: #13b4ff
 }
-.sqaures:nth-child(2) :hover {
+.squares:nth-child(2) :hover {
     background: #d861af;
 }
 .squares:nth-child(3) :hover {
     background: #81205f
 }
-.sqaures:nth-child(4) :hover {
+.squares:nth-child(4) :hover {
     background: #77b800
 }
 /*--------------------------------------------------
     ANIMATION EFFECT 
 ---------------------------------------------------*/
 @keyframes race {
-    0% 100% {
+    0%, 100% { 
         transform: tranlateY (0px);
         background-image: url("../images/icons/icon_1.png")
     }
