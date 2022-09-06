@@ -27,12 +27,13 @@ SELECT ALL SQUARES IN THE ARRAY
     height: 100px;
     margin: 5px;
     border: 1px solid black;
-    border radius: 256;
+    border-radius: 256;
     cursor:pointer;
     transition: transform .5s ease-in-out;
 }
 /*------------------------------------------------------
-SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY-------------*/
+SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY
+------------------------------------------------------*/
 .squares:nth-child(-n+4) p{
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 1.5em;
@@ -59,7 +60,7 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
 /*----------------------------------------------------
 HOVER, TRANSLATE, AND TRANSFORM EFFECTS
 -----------------------------------------------------*/
-.container .squares:nth-child(-n+4) :hover {
+.container .squares:nth-child(-n+4) :hover{
     background-image: url(../images/icons/icon_1.png);
     transform: scale(.5);
     animation-name: race;
