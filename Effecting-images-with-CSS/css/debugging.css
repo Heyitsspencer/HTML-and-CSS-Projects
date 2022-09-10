@@ -2,7 +2,10 @@ body {
     color: darkblue;
 }
 h3 {
-    align-self: center;
+    text-align: center;
+}
+p {
+    color: darkblue;
 }
 img {
     border: 2px dotted red;
