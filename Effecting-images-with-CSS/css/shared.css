@@ -178,7 +178,7 @@ container::after,
 /*------------------------------------------------------------------------------------
     CONTACT STYLES
 ----------------------------------------------------------------------------------*/
-.flex-container{
+.flex-container {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
@@ -188,7 +188,7 @@ container::after,
     background-color: rgba(100, 65, 0, 0.3);
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
-#contact{
+#contact {
     background-color:#f5f3f3;
 }
 .reservation {
@@ -256,7 +256,7 @@ container::after,
     box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
     font-family: 'Raleway', sans-serif;
 }
-.reservation input[type="text"] {
+.reservation input[type="text"]:hover {
     box-shadow: 0 0 18px rgba(100, 65, 0, 0.8);
 }
 .form-spacer {
