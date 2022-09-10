@@ -1,8 +1,21 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
 }
 span {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
+    font-size: 40px;
+}
+img {
+    width: 100px;
+    margin: 5pt;
+    border: double 2pt purple;
+    border-radius: 1pt;
+    float: left;
+}
+video {
+    width: 200px;
+    margin: 5pt;
+    border: double 2pt purple;
+    border-radius: 1pt;
 }
