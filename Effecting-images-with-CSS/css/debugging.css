@@ -1,0 +1,18 @@
+body {
+    color: darkblue;
+}
+h3 {
+    align-self: center;
+}
+img {
+    border: 2px dotted red;
+    border-radius: 2px;
+    padding: 0;
+    width: 600;
+    height: 300;
+}
+iframe {
+    width: 350;
+    height: 315;
+    border: 0;
+}
