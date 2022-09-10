@@ -307,3 +307,31 @@ container::after,
     background-color: #8D8E8F;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
 }
+/*-----------------------------------------------------------------------------
+    @MEDIA QUERIES
+-----------------------------------------------------------------------------*/
+@media all and (max-width: 640px) and (min-width: 381px) {
+    .head-main {
+        font-size: 28px;
+    }
+}
+@media all and (max-width: 381px) and (min-width: 200px) {
+    .head-main {
+        font-size: 24px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
