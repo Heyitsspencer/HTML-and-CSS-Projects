@@ -1,0 +1,13 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img {
+    filter: invert(70%);
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+}
