@@ -16,7 +16,7 @@ img {
 input {
     width: 100px;
     margin: 5pt;
-    border: dotted 2pt solid red;
+    border: dotted 2pt;
     border-radius: 5pt;
 }
 video {
