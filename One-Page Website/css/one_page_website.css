@@ -19,3 +19,9 @@ video {
     border: double 2pt purple;
     border-radius: 1pt;
 }
+input {
+    width: 100px;
+    margin: 5pt;
+    border: dotted 2pt solid red;
+    border-radius: 5pt;
+}
