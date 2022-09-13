@@ -8,7 +8,7 @@ p {
     color: darkblue;
 }
 img {
-    border: 2px dotted red;
+    border: 2px dashed red;
     border-radius: 2px;
     padding: 0;
     width: 600;
